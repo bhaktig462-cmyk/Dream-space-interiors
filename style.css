@@ -1,0 +1,362 @@
+/* Services Section */
+
+.services-section {
+    padding: 90px 0;
+    background: #ffffff;
+}
+
+.services-section h2 {
+    color: #49372b;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.service-card {
+    background: #f8f5f0;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.service-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.service-card h4 {
+    margin-top: 20px;
+    color: #795548;
+}
+
+.service-card p {
+    color: #666;
+    padding: 0 10px;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}/* Projects Gallery */
+
+.projects-section {
+    padding: 90px 0;
+    background: #f8f5f0;
+}
+
+.projects-section h2 {
+    font-size: 36px;
+    color: #49372b;
+    font-weight: bold;
+}
+
+.project-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.project-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h4 {
+    color: #795548;
+}
+
+.project-info p {
+    color: #777;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}/* Why Choose Us */
+
+.why-section {
+    padding: 90px 0;
+    background: #ffffff;
+}
+
+.why-section h2 {
+    color: #49372b;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.why-card {
+    background: #f8f5f0;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 12px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.why-card h1 {
+    color: #a77b55;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.why-card h4 {
+    color: #49372b;
+    margin: 15px 0;
+}
+
+.why-card p {
+    color: #777;
+}
+
+.why-card:hover {
+    background: #eee3d7;
+    transform: translateY(-7px);
+}/* Contact Section */
+
+.contact-section {
+    padding: 90px 0;
+    background: #f8f5f0;
+}
+
+.contact-section h2 {
+    color: #49372b;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.contact-info {
+    background: #795548;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.contact-info h3 {
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    margin: 20px 0;
+}
+
+.contact-section .form-control {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+.contact-section .form-control:focus {
+    border-color: #a77b55;
+    box-shadow: 0 0 5px #a77b55;
+}</section>
+    <!-- YAHAN FOOTER CODE PASTE KARO -->
+
+    <footer class="footer-section">
+        <div class="container">
+            <!-- Footer ka remaining code -->
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 70vh;
+        padding: 30px 20px;
+        background-position: center;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .about-section,
+    .services-section,
+    .projects-section,
+    .why-section,
+    .contact-section {
+        padding: 50px 0;
+    }
+
+    .about-text {
+        padding: 25px 10px;
+    }
+
+    .about-text h2,
+    .services-section h2,
+    .projects-section h2,
+    .why-section h2,
+    .contact-section h2 {
+        font-size: 28px;
+    }
+
+    .about-img {
+        height: 280px;
+    }
+
+    .service-card img {
+        height: 220px;
+    }
+
+    .project-card img {
+        height: 230px;
+    }
+
+    .contact-info {
+        padding: 25px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}/* Animation Effects */
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar Hover */
+.nav-link {
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #a77b55 !important;
+}
+
+/* Button Animation */
+.explore-btn {
+    transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Image Animation */
+.about-img,
+.project-card img,
+.service-card img {
+    transition: transform 0.4s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.03);
+}
+/* Testimonials Section */
+
+.testimonials-section {
+    padding: 90px 0;
+    background: #f8f5f0;
+}
+
+.testimonials-section h2 {
+    color: #49372b;
+    font-weight: bold;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.review-card h2 {
+    color: #c69b55;
+    letter-spacing: 3px;
+}
+
+.review-card p {
+    color: #666;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.review-card h5 {
+    color: #795548;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+/* Card Animation */
+.service-card,
+.project-card,
+.why-card {
+    transition: all 0.4s ease;
+}
+
+/* Section Heading */
+h2 {
+    transition: color 0.3s ease;
+}/* Statistics Section */
+
+.stats-section {
+    background: #795548;
+    padding: 60px 0;
+    color: white;
+}
+
+.stats-section h2 {
+    color: #f0d1ad;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.stats-section p {
+    font-size: 16px;
+    margin-top: 10px;
+}/* Back To Top Button */
+
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #a77b55;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background: #49372b;
+    transform: translateY(-5px);
+}
